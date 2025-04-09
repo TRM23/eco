@@ -99,3 +99,7 @@ body {
     align-items: center;
     margin-bottom: 30px;
 }
+
+table, th, td {
+    border:1px solid black;
+}
