@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(220, 255, 221); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+}
+
+#title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-shadow: 
+        3px 3px 5px #f0f7c8,  /* Roz deschis */
+        -3px -3px 5px #c8f7d8, /* Verde deschis */
+        2px -2px 5px #c8d8f7; /* Albastru deschis */
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-indent: 30px;
+    font-family: Georgia, 'Times New Roman';
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-shadow: 
+        3px 3px 5px #f0f7c8,  /* Roz deschis */
+        -3px -3px 5px #c8f7d8, /* Verde deschis */
+        2px -2px 5px #c8d8f7; /* Albastru deschis */
+}
+
+.list{
+    text-indent: 0px;
+}
+
+.list1{
+    margin-bottom: 20px;
+}
+
+#logo-cone {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensure it spans the full width */
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#buton-stanga, #buton-dreapta {
+    text-decoration: none;
+    font-weight: bold;
+    color: black; 
+    font-size: 30px;
+    background-color: rgba(153, 255, 0, 0.422);
+    padding: 10px;
+    border-radius: 50px;/* Change color if needed */
+}
+
+#buton-stanga {
+    position: absolute;
+    left: 0;
+}
+
+#buton-dreapta {
+    position: absolute;
+    right: 0;
+}
+
+#copyright{
+    text-align: right;
+}
+
+.imagine{
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+#semn{
+    margin-left: 90px;
+    width: 100px;
+}
+
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
