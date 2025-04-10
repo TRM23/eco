@@ -32,10 +32,11 @@ body {
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    text-shadow: 
-        3px 3px 5px #f0f7c8,  /* Roz deschis */
-        -3px -3px 5px #c8f7d8, /* Verde deschis */
-        2px -2px 5px #c8d8f7; /* Albastru deschis */
+    /*text-shadow: 
+        3px 3px 5px #f0f7c8,  /* Roz deschis 
+        -3px -3px 5px #c8f7d8, /* Verde deschis 
+        2px -2px 5px #c8d8f7; /* Albastru deschis 
+    */
 }
 
 .list{
@@ -56,7 +57,7 @@ body {
     margin-bottom: 50px;
 }
 
-#buton-stanga, #buton-dreapta {
+#buton-stanga, #buton-dreapta, #buton-mijloc {
     text-decoration: none;
     font-weight: bold;
     color: black; 
@@ -74,6 +75,11 @@ body {
 #buton-dreapta {
     position: absolute;
     right: 0;
+}
+
+#buton-mijloc {
+    position: absolute;
+    left: 46%;
 }
 
 #copyright{
@@ -102,4 +108,13 @@ body {
 
 table, th, td {
     border:1px solid black;
+}
+
+a {
+    color: black; /* or whatever color you want */
+    text-decoration: none; /* optional: removes the underline */
+  }
+
+  a:visited {
+    color: black; /* same as above to stop it from changing */
 }
