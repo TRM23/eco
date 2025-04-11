@@ -119,6 +119,13 @@ a {
     color: black; /* same as above to stop it from changing */
 }
 
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
 .rainbow-animated-smooth {
     position: relative;
     padding: 20px;
@@ -128,6 +135,12 @@ a {
     text-align: center;
     z-index: 1;
     overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    font-size: clamp(28px, 6vw, 54px);
+    margin: 0 auto;
+    max-width: 90%;
 }
   
 .rainbow-animated-smooth::before {
@@ -174,4 +187,3 @@ a {
       background-position: 100% 50%;
     }
   }
-  
