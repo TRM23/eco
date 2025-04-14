@@ -48,13 +48,15 @@ body {
 }
 
 #logo-cone {
-    position: relative;
+    position: fixed;
+    bottom: 20px; /* Distance from bottom of screen */
+    left: 0;
+    width: 98%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; /* Ensure it spans the full width */
-    margin-top: 40px;
-    margin-bottom: 50px;
+    padding: 0 10px; /* Optional: padding on sides */
+    z-index: 999; /* Keep above other elements if needed */
 }
 
 #buton-stanga, #buton-dreapta, #buton-mijloc {
@@ -64,26 +66,18 @@ body {
     font-size: 30px;
     background-color: rgba(153, 255, 0, 0.422);
     padding: 10px;
-    border-radius: 50px;/* Change color if needed */
-}
-
-#buton-stanga {
-    position: absolute;
-    left: 0;
-}
-
-#buton-dreapta {
-    position: absolute;
-    right: 0;
+    border-radius: 50px;
 }
 
 #buton-mijloc {
     position: absolute;
-    left: 46%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #copyright{
     text-align: right;
+    margin-bottom: 100px;
 }
 
 .imagine{
