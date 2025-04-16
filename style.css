@@ -13,7 +13,7 @@ body {
     font-weight: bold;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: clamp(24px, 6vw, 40px);
     margin-top: 30px;
     margin-bottom: 20px;
     text-shadow: 
